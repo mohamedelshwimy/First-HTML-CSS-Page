@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body {
+                background-image: url("bg.jpg");
+        }
+        div{
+            background-color: lightgray;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 10%;
+        }
+        table{
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+        tr{
+            height: 50px;
+        }
+        input{
+            border-style: none;
+            border-bottom:2px black solid ;
+            background-color: lightgray; 
+            outline: none;
+        }
+
+        input:active{
+            border-style: none;
+            border-bottom:2px cyan solid ;
+            background-color: lightgray;
+            outline: none;
+        }
+        input:focus{
+            border-style: none;
+            border-bottom:2px cyan solid ;
+            background-color: lightgray;
+            outline: none;
+        }
+        #log{
+            border-style: none;
+            background-color: plum;
+            border-radius: 10%;
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <form method="get" action="products.html">
+        <table>
+            <tr>
+                <td><img src="Images/icons8-male-user-50.png"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your username" name="username" /> </td>
+            </tr>
+            <tr><td><img src="Images/passs.png"></td></tr>
+            <tr>
+                <td><input type="password" placeholder="Enter your password" name="password" /> </td>
+            </tr>
+            <tr><td><input id="log" type="submit" value="Login"></td></tr>
+            <tr><td><a href="signup.html">Sign up</a></td></tr>
+        </table>
+    </div>
+    </form>
+    </div>
+</body>
+</html>

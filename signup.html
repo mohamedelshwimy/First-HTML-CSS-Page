@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+    background-image: url("bg.jpg");
+}
+div{
+            background-color: lightgray;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 400px;
+            margin-right: 400px;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 10%;
+        }
+        table{
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+        tr{
+            height: 50px;
+        }
+        input{
+            border-style: none;
+            border-bottom:2px black solid ;
+            background-color: lightgray;
+        }
+        input:active{
+            border-style: none;
+            border-bottom:2px cyan solid ;
+            background-color: lightgray;
+            outline: none;
+        }
+        input:focus{
+            border-style: none;
+            border-bottom:2px cyan solid ;
+            background-color: lightgray;
+            outline: none;
+        }
+        #sign{
+            border-style: none;
+            background-color: plum;
+            border-radius: 10%;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form method="get" action="products.html">
+        <table>
+            <tr>
+                <td><img src="Images/icons8-male-user-50.png"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your Name" name="name" /> </td>
+            </tr>
+            <tr>
+                <td><img src="Images/mail.png"></td>
+            </tr>
+            <tr>
+                <td><input type="email" placeholder="Enter your Email" name="email" /></td>
+            </tr>
+            <tr><td><img src="Images/passs.png"></td></tr>
+            <tr>
+                <td><input type="password" placeholder="Enter your password" name="password" /> </td>
+            </tr>
+            <tr><td><img src="Images/passs.png"></td></tr>
+            <tr>
+                <td><input type="password" placeholder="Rewrite password" name="password" /> </td>
+            </tr>
+            <tr><td><input id="sign" type="submit" value="Sign up"></td></tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
