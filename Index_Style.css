@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg.jpg");
+}
+.formDiv{
+background-color: lightgray;
+text-align: center;
+margin: auto;
+width: 20%;
+padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 10%;
+}
+table{
+top: 50%;
+width: 100%;
+text-align: center;
+}
+tr{
+height: 50px;
+}
+input{
+border-style: none;
+border-bottom:2px black solid ;
+background-color: lightgray; 
+outline: none;
+}
+input:active{
+border-style: none;
+border-bottom:2px cyan solid ;
+background-color: lightgray;
+outline: none;
+}
+input:focus{
+border-style: none;
+border-bottom:2px cyan solid ;
+background-color: lightgray;
+outline: none;
+}
+#log{
+border-style: none;
+background-color: plum;
+border-radius: 10%;
+font-weight: bolder;
+}
